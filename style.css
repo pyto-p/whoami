@@ -66,19 +66,16 @@ nav {
 
 main {
   height: 90vh;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(3, auto);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
 }
 
 .main-pic {
-  grid-area: 1 / 1 / 2 / 3;
-  /* margin-bottom: 30px; */
-  /* background-color: aquamarine; */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 
 .main-pic > img {
@@ -88,13 +85,12 @@ main {
 }
 
 .main-desc-container {
-  grid-area: 2 / 1 / 3 / 3;
+  /* grid-area: 2 / 1 / 3 / 3; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  margin-top: -20px;
 }
 
 .main-desc {
@@ -128,6 +124,8 @@ main {
 }
 
 .round-btn {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1em;
   border: 3px solid #2e424d;
   padding: 20px;
   border-radius: 40px;
@@ -158,6 +156,128 @@ main {
   border-radius: 50%;
 }
 
+#about, #skills {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about-upper, .skills-upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.about-upper > h2, .skills-upper > h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.3em;
+  color: rgba(46, 66, 77, 0.45);
+}
+
+.about-upper > h1, .skills-upper > h1 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 3.5em;
+}
+
+.about-upper > p {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: justify;
+  padding: 20px 20px 0px 20px;
+}
+
+.about-pic {
+  width: 140px;
+  border-radius: 20%;
+}
+
+.about-textbox {
+  width: 90vw;
+  border: 3px solid #2e424d;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.about-textbox > img {
+  width: 50px;
+}
+
+.about-subheader {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.about-details {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.3em;
+}
+
+.skills-textbox {
+  width: 90vw;
+  border: 3px solid #2e424d;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.skills-textbox > h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 2em;
+}
+
+.skills-details {
+  /* background-color: red; */
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.skills-details > img {
+  width: 60px;
+}
+
+.skills-details:nth-child(4) > img {
+  width: 50px;
+}
+
+.skills-details > div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* background-color: red; */
+}
+
+.skills-title {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.skills-level {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgba(46, 66, 77, 0.6);
+}
 
 /* DESKTOP */
 @media screen and (min-width: 801px) {
