@@ -5,307 +5,191 @@
 }
 
 body {
-  background-color: #eaebed;
-  color: #2e424d;
+  background-color: #1b1d25;
+  font-family: 'Martian Mono', monospace;
+  color: white;
+  display: flex;
 }
 
 header {
-  height: 10vh;
-}
+  height: 100vh;
+} 
 
 nav {
+  width: 75px;
   height: 100%;
-  background-color: #2e424d;
+  background-color: #15181f;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
+  gap: 70px;
+  position: fixed;
 }
 
 .nav-logo {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-logo > img {
-  height: 55px;
-  width: 55px;
-}
-
-.nav-list {
-  display: none;
-}
-
-nav {
-  display: flex;
-  gap: 50%;
-}
-
-.nav-logo {
-  flex: 1;
-}
-
-.nav-mobile {
-  flex: 1;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-mobile > button > img {
-  height: 35px;
-  width: 35px;
-}
-
-.nav-mobile > button {
-  background-color: transparent;
-  border: none;
-}
-
-main {
-  height: 90vh;
+  background-color: black;
+  width: 100%;
+  height: 18%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  padding: 10px;
 }
 
-.main-pic {
+nav > img {
+  width: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav > ul > li:nth-child(1) {
+  border-top: 1px solid #373636;
+}
+
+nav > ul > li {
+  padding: 1em 0.5em;
+  border-bottom: 1px solid #373636;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.main-pic > img {
-  width: 250px;
-  border-radius: 50%;
-  border: 4px solid #2e424d;
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.6em;
 }
 
-.main-desc-container {
-  /* grid-area: 2 / 1 / 3 / 3; */
+nav ul li a:hover {
+  text-decoration: underline; /* Add underline on hover if desired */
+}
+
+.content-container {
+  width: 100vw;
   display: flex;
+  flex-direction: column;
+}
+
+main, section {
+  width: 100%;
+  padding: 20px 20px 20px 90px;
+  height: auto;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+.gray {
+  color: #86868a;
+}
+
+.white {
+  color: white;
+}
+
+.space-horizontal {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.space-horizontal-wider {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.space-horizontal-custom {
+  display: inline-block;
+  margin-left: 55px;
+}
+
+.space-vertical {
+  margin-top: 10px;
+}
+
+.blue {
+  color: #38daf7;
+}
+
+.bordered-button {
+  width: 160px;
+  border: 1px solid #38daf7;
+  padding: 0.5em 2em;
+  color: #38daf7;
+  font-size: 0.8em;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 10px;
+}
+
+.project-item > img {
+  width: 200px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills-item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.percentage-line {
+  width: 80%;
+  background-color: #ccc;
+  height: 10px;
+}
+
+.skills-graph {
+  width: 100%;
+  height: auto;
+  display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.main-desc {
+.skills-graph-item {
+  /* background-color: blue; */
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  /* border: 1px solid black; */
-}
-
-.intro-p {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1.3em;
-}
-
-.intro-name {
-  font-family: 'League Spartan', sans-serif;
-  font-size: 2em;
-}
-
-.intro-title {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 1.4em;
-}
-
-.cv-contact-btns {
-  display: flex;
-  gap: 15px;
-}
-
-.round-btn {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1em;
-  border: 3px solid #2e424d;
-  padding: 20px;
-  border-radius: 40px;
-}
-
-.round-btn:hover {
-  background-color: #2e424d;
-  color: white;
-}
-
-.socials-btns {
-  display: flex;
   gap: 10px;
 }
 
-.socials-btns > button {
-  background-color: transparent;
-  border: none;
+.line {
+  height: 100%;
 }
 
-.socials-btns > button:nth-child(1) > img {
-  width: 5em;
+.blue-line {
+  width: 80%;
+  background-color: #0bdabc;
 }
 
-.socials-btns > button:nth-child(2) > img {
-  width: 4.5em;
-  border: 3px solid #2e424d;
-  border-radius: 50%;
+.red-line {
+  width: 90%;
+  background-color: #ff5e6e;
 }
 
-#about, #skills {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 25px;
+.socials-item {
+  display: block;
+  font-size: 14px;
 }
-
-.about-upper, .skills-upper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.about-upper > h2, .skills-upper > h2 {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 1.3em;
-  color: rgba(46, 66, 77, 0.45);
-}
-
-.about-upper > h1, .skills-upper > h1 {
-  font-family: 'League Spartan', sans-serif;
-  font-size: 3.5em;
-}
-
-.about-upper > p {
-  font-family: 'Alegreya Sans', sans-serif;
-  text-align: justify;
-  padding: 20px 20px 0px 20px;
-}
-
-.about-pic {
-  width: 140px;
-  border-radius: 20%;
-}
-
-.about-textbox {
-  width: 90vw;
-  border: 3px solid #2e424d;
-  border-radius: 20px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
-}
-
-.about-textbox > img {
-  width: 50px;
-}
-
-.about-subheader {
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: bolder;
-  font-size: 1.5em;
-}
-
-.about-details {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1.3em;
-}
-
-.skills-textbox {
-  width: 90vw;
-  border: 3px solid #2e424d;
-  border-radius: 20px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
-}
-
-.skills-textbox > h2 {
-  font-family: 'League Spartan', sans-serif;
-  font-size: 2em;
-}
-
-.skills-details {
-  /* background-color: red; */
-  width: 95%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.skills-details > img {
-  width: 60px;
-}
-
-.skills-details:nth-child(4) > img {
-  width: 50px;
-}
-
-.skills-details > div {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  /* background-color: red; */
-}
-
-.skills-title {
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
-.skills-level {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1.2em;
-  font-weight: bold;
-  color: rgba(46, 66, 77, 0.6);
-}
-
-/* DESKTOP */
-@media screen and (min-width: 801px) {
-  .nav-mobile {
-    display: none;
-  }
-
-  .nav-list {
-    height: 100%;
-    width: 80%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav-list > ul {
-    height: 100%;
-    width: 100%;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .nav-list > ul > li > a {
-    color: white;
-    text-decoration: none;
-  }
-  
-}
-
-
