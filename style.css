@@ -1,3 +1,4 @@
+/* UNIVERSAL STYLE */
 * {
   padding: 0;
   margin: 0;
@@ -15,6 +16,19 @@ header {
   height: 100vh;
 } 
 
+a {
+  font-size: 0.8em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+/* NAVBAR STYLE */
 nav {
   width: 80px;
   height: 100%;
@@ -38,16 +52,7 @@ nav {
 }
 
 .nav-logo > img {
-  min-width: 40px;
-  max-width: 60px;
-}
-
-a {
-  font-size: 0.8em;
-}
-
-p {
-  font-size: 0.8em;
+  width: 48px;
 }
 
 ul {
@@ -67,7 +72,7 @@ nav > ul > li {
 }
 
 nav > ul > li:hover {
-  background-color: #0bdabc;
+  background-color: #38daf7;
 }
 
 nav > ul > li > a {
@@ -81,22 +86,9 @@ nav > ul > li:hover > a {
   color: black;
 }
 
-.bordered-button {
-  width: 160px;
-  border: 1px solid #38daf7;
-  padding: 0.5em 2em;
-  color: #38daf7;
-  font-size: 0.8em;
-  background-color: transparent;
-  cursor: pointer;
-}
 
-button:hover {
-  background-color: #38daf7;
-  color: black;
-  text-decoration: underline;
-}
 
+/* SECTIONS CONTENT STYLE */
 .content-container {
   width: 100vw;
   display: flex;
@@ -107,15 +99,33 @@ main, section {
   width: 100%;
   padding: 20px 50px 20px 90px;
   height: auto;
-  /* lagay mo sa tablet margin-left 120px */
+}
+
+/* GENERAL STYLES */
+.underline {
+  text-decoration: underline;
 }
 
 .gray {
   color: #86868a;
 }
 
-.white {
-  color: white;
+.blue {
+  color: #38daf7;
+}
+
+.line {
+  height: 100%;
+}
+
+.blue-line {
+  width: 80%;
+  background-color: #0bdabc;
+}
+
+.red-line {
+  width: 90%;
+  background-color: #ff5e6e;
 }
 
 .space-horizontal {
@@ -137,10 +147,24 @@ main, section {
   margin-top: 10px;
 }
 
-.blue {
+/* BUTTON STYLE */
+.bordered-button {
+  width: 160px;
+  border: 1px solid #38daf7;
+  padding: 0.5em 2em;
   color: #38daf7;
+  font-size: 0.8em;
+  background-color: transparent;
+  cursor: pointer;
 }
 
+button:hover {
+  background-color: #38daf7;
+  color: black;
+  text-decoration: underline;
+}
+
+/* PROJECT SECTION STYLE */
 .project-container {
   display: flex;
   flex-wrap: wrap;
@@ -159,6 +183,7 @@ main, section {
   width: 200px;
 }
 
+/* SKILLS SECTION STYLE */
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -194,20 +219,7 @@ main, section {
   gap: 10px;
 }
 
-.line {
-  height: 100%;
-}
-
-.blue-line {
-  width: 80%;
-  background-color: #0bdabc;
-}
-
-.red-line {
-  width: 90%;
-  background-color: #ff5e6e;
-}
-
+/* CONTACT SECTION STYLE */
 .socials-item {
   display: block;
   font-size: 14px;
@@ -216,7 +228,8 @@ main, section {
 /* FOR TABLET VIEW */
 @media screen and (min-width: 800px) {
   main, section {
-    padding-left: 115px; 
+    padding-left: 150px; 
+    padding-right: 80px;
   }
   
   nav {
@@ -225,6 +238,10 @@ main, section {
   
   nav > ul > li > a {
     font-size: 0.75em;
+  }
+
+  .nav-logo > img {
+    width: 55px;
   }
 
   a, p {
@@ -265,6 +282,28 @@ main, section {
     row-gap: 20px;
     column-gap: 100px;
   }
+}
 
+/* FOR S-LAPTOP VIEW */
+@media screen and (min-width: 1280px) {
+  main, section {
+    padding-left: 200px;
+    padding-right: 115px;
+  }
 
+  .project-container {
+    column-gap: 30px;
+  }
+}
+
+/* FOR M-LAPTOP & DESKTOP VIEW */
+@media screen and (min-width: 1440px) {
+  main, section {
+    padding-left: 200px;
+    padding-right: 180px;
+  }
+
+  .project-container {
+    column-gap: 70px;
+  }
 }
