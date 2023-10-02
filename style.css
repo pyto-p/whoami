@@ -156,9 +156,9 @@ main, section {
 .bordered-button {
   width: 160px;
   border: 1px solid #38daf7;
-  padding: 0.5em 2em;
+  padding: 0.5em;
   color: #38daf7;
-  font-size: 0.8em;
+  font-size: 1em;
   background-color: transparent;
   cursor: pointer;
 }
@@ -274,6 +274,13 @@ button:hover > a {
   text-decoration: underline;
 }
 
+/* MOBILE VIEW */
+@media screen and (max-width: 375px) {
+  #contact a strong {
+    text-decoration: underline;
+  }
+}
+
 /* FOR TABLET VIEW */
 @media screen and (min-width: 800px) {
   main, section {
@@ -328,13 +335,9 @@ button:hover > a {
     font-size: 1em;
   }
 
-  /* .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    row-gap: 20px;
-    column-gap: 100px;
-  } */
+  .email {
+    margin-left: 0px;
+  }
 }
 
 /* FOR S-LAPTOP VIEW */
