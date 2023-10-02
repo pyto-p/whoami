@@ -275,7 +275,7 @@ button:hover > a {
 }
 
 /* MOBILE VIEW */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 428px) {
   #contact a strong {
     text-decoration: underline;
   }
