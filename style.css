@@ -264,7 +264,8 @@ button:hover > a {
   font-size: 0.8em;
 }
 
-#contact a strong {  
+#contact a strong {
+  display: inline-block;  
   padding-top: 10px;
   padding-bottom: 10px;
 }
