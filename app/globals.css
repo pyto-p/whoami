@@ -1,26 +1,49 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: 255 255 255;
+    --foreground: 30 41 59;
+  }
+
+  .dark {
+    --background: 26 27 38;
+    --foreground: 192 202 245;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .terminal-window {
+    @apply bg-tokyo-terminal dark:bg-tokyo-terminal border border-tokyo-comment rounded-lg overflow-hidden shadow-2xl;
+  }
+
+  .terminal-header {
+    @apply bg-tokyo-bgHighlight px-4 py-2 flex items-center gap-2;
+  }
+
+  .terminal-dot {
+    @apply w-3 h-3 rounded-full;
+  }
+
+  .code-block {
+    @apply bg-tokyo-bgDark p-4 rounded-lg font-mono text-sm overflow-x-auto;
+  }
+
+  .glow-effect {
+    @apply transition-all duration-300 hover:shadow-lg hover:shadow-tokyo-blue/20;
+  }
 }
