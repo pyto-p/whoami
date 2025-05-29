@@ -10,12 +10,12 @@ export function HeroSection() {
     <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-20 relative overflow-hidden">
       <MatrixRain />
 
-      <div className="max-w-7xl text-center relative z-10">
+      <div className="max-w-7xl text-center relative z-10 px-2 sm:px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="terminal-window mx-auto"
+          className="terminal-window mx-auto w-full max-w-full"
         >
           <div className="terminal-header">
             <div className="terminal-dot bg-tokyo-red"></div>
@@ -24,17 +24,17 @@ export function HeroSection() {
             <span className="ml-4 text-tokyo-fgDark font-mono text-sm">pyto-p@portfolio:~$ neofetch</span>
           </div>
 
-          <div className="p-8 bg-tokyo-bg">
+          <div className="p-4 sm:p-6 md:p-8 bg-tokyo-bg">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 1 }}
               className="font-mono text-left"
             >
-              <div className="grid lg:grid-cols-2 gap-12 items-center mx-auto">
+              <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center mx-auto">
                 {/* ASCII Art */}
                 <div className="text-tokyo-blue text-center lg:text-left">
-                  <pre className="text-[8px] md:text-[10px] lg:text-xs leading-tight whitespace-pre overflow-hidden">
+                  <pre className="text-[6px] sm:text-[8px] md:text-[10px] lg:text-xs leading-tight whitespace-pre overflow-hidden">
                     {`    ███████╗███████╗██████╗  █████╗ ███████╗████████╗██╗ █████╗ ███╗   ██╗
     ██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██║██╔══██╗████╗  ██║
     ███████╗█████╗  ██████╔╝███████║███████╗   ██║   ██║███████║██╔██╗ ██║
@@ -45,68 +45,68 @@ export function HeroSection() {
                 </div>
 
                 {/* Neofetch Info */}
-                <div className="space-y-2 text-m">
+                <div className="space-y-1 sm:space-y-2 text-sm md:text-base">
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">Name:</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">Name:</span>
                     <span className="text-tokyo-fg">Sebastian Audrey Temporal</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">Role:</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">Role:</span>
                     <span className="text-tokyo-fg">Fullstack Developer Intern @JLabs</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">Path:</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">Path:</span>
                     <span className="text-tokyo-fg">Full Stack Development</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">PL:</span>
-                    <span className="text-tokyo-fg">JavaScript | TypeScript | Python | Java | PHP | C++</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">PL:</span>
+                    <span className="text-tokyo-fg">JS | TS | Python | Java | PHP | C++</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">FE:</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">FE:</span>
                     <span className="text-tokyo-fg">React | Next.js</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">BE:</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">BE:</span>
                     <span className="text-tokyo-fg">Node.js | Express | NestJS | Laravel</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">DB:</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">DB:</span>
                     <span className="text-tokyo-fg">MongoDB | PostgreSQL | MySQL | Firebase</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">Theme:</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">Theme:</span>
                     <span className="text-tokyo-fg">TokyoNight</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">Uptime:</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">Uptime:</span>
                     <span className="text-tokyo-fg">2+ years coding</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">Memory:</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">Memory:</span>
                     <span className="text-tokyo-fg">Always learning!!!</span>
                   </div>
 
                   {/* Color palette */}
-                  <div className="pt-4">
+                  <div className="pt-3 sm:pt-4">
                     <div className="flex flex-wrap">
-                      <span className="text-tokyo-cyan font-bold min-w-[80px]">Colors:</span>
+                      <span className="text-tokyo-cyan font-bold min-w-[70px] sm:min-w-[80px]">Colors:</span>
                     </div>
-                    <div className="flex gap-1 mt-2 flex-wrap">
-                      <div className="w-6 h-6 bg-tokyo-red rounded"></div>
-                      <div className="w-6 h-6 bg-tokyo-orange rounded"></div>
-                      <div className="w-6 h-6 bg-tokyo-yellow rounded"></div>
-                      <div className="w-6 h-6 bg-tokyo-green rounded"></div>
-                      <div className="w-6 h-6 bg-tokyo-cyan rounded"></div>
-                      <div className="w-6 h-6 bg-tokyo-blue rounded"></div>
-                      <div className="w-6 h-6 bg-tokyo-purple rounded"></div>
-                      <div className="w-6 h-6 bg-tokyo-pink rounded"></div>
+                    <div className="flex gap-1 mt-1 sm:mt-2 flex-wrap">
+                      <div className="w-4 h-4 sm:w-6 sm:h-6 bg-tokyo-red rounded"></div>
+                      <div className="w-4 h-4 sm:w-6 sm:h-6 bg-tokyo-orange rounded"></div>
+                      <div className="w-4 h-4 sm:w-6 sm:h-6 bg-tokyo-yellow rounded"></div>
+                      <div className="w-4 h-4 sm:w-6 sm:h-6 bg-tokyo-green rounded"></div>
+                      <div className="w-4 h-4 sm:w-6 sm:h-6 bg-tokyo-cyan rounded"></div>
+                      <div className="w-4 h-4 sm:w-6 sm:h-6 bg-tokyo-blue rounded"></div>
+                      <div className="w-4 h-4 sm:w-6 sm:h-6 bg-tokyo-purple rounded"></div>
+                      <div className="w-4 h-4 sm:w-6 sm:h-6 bg-tokyo-pink rounded"></div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-6 text-tokyo-comment">
+              <div className="mt-4 sm:mt-6 text-tokyo-comment text-sm sm:text-base">
                 <span className="text-tokyo-green">pyto-p@portfolio</span>
                 <span className="text-tokyo-fg">:</span>
                 <span className="text-tokyo-blue">~</span>
