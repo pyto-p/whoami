@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="4" fill="#1a1b26"/>
+  
+  <!-- Eye Shape -->
+  <ellipse cx="16" cy="16" rx="12" ry="8" fill="none" stroke="#7aa2f7" stroke-width="1.5"/>
+  
+  <!-- Iris -->
+  <circle cx="16" cy="16" r="5" fill="#bb9af7"/>
+  
+  <!-- Pupil -->
+  <circle cx="16" cy="16" r="2.5" fill="#1a1b26"/>
+  
+  <!-- Light Reflection -->
+  <circle cx="14.5" cy="14.5" r="1" fill="#7dcfff"/>
+  
+  <!-- Eyelid Highlight -->
+  <path d="M 7 16 Q 16 10 25 16" fill="none" stroke="#7aa2f7" stroke-width="0.75" opacity="0.8"/>
+</svg>

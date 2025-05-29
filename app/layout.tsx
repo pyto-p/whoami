@@ -11,9 +11,14 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Sebastian Temporal - Fullstack Developer",
+  title: "Sebastian Temporal",
   description:
-    "Portfolio of Sebastian Temporal, a passionate Fullstack Developer specializing in modern web technologies.",
+    "Portfolio of Sebastian Temporal, a passionate Fullstack Developer in the Philippines specializing in modern web technologies.",
+  icons: {
+    icon: [
+      { url: '/eye-logo.svg' },
+    ],
+  },
 }
 
 export default function RootLayout({

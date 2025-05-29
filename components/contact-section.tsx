@@ -13,19 +13,19 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com",
+    url: "https://github.com/pyto-p",
     color: "text-tokyo-fg hover:text-tokyo-blue",
   },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/sbstntmprl/",
     color: "text-tokyo-fg hover:text-tokyo-blue",
   },
   {
-    name: "Dev.to",
+    name: "daily.dev",
     icon: Mail,
-    url: "https://dev.to",
+    url: "https://app.daily.dev/pytop",
     color: "text-tokyo-fg hover:text-tokyo-green",
   },
 ]
@@ -84,7 +84,7 @@ export function ContactSection() {
               <span className="ml-4 text-tokyo-fgDark font-mono text-sm">contact-form.tsx</span>
             </div>
 
-            <div className="p-6 bg-tokyo-bg">
+            <div className="h-full p-6 bg-tokyo-bg">
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label className="block text-tokyo-cyan font-mono text-sm mb-2">Name</label>
@@ -117,7 +117,7 @@ export function ContactSection() {
                     value={formData.message}
                     onChange={handleChange}
                     className="bg-tokyo-bgHighlight border-tokyo-comment text-tokyo-fg font-mono min-h-[120px]"
-                    placeholder="Tell me about your project..."
+                    placeholder="This is not currently implemented correctly, added this for aesthetic purposes only."
                     required
                   />
                 </div>
