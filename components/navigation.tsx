@@ -41,7 +41,7 @@ export function Navigation() {
         <div className="flex justify-between items-center py-4">
           <motion.div whileHover={{ scale: 1.05 }} className="flex items-center gap-2">
             <Terminal className="w-6 h-6 text-tokyo-blue" />
-            <span className="font-mono font-bold text-lg">sebastian.dev</span>
+            <span className="font-mono font-bold text-lg">pyto-p.dev</span>
           </motion.div>
 
           {/* Desktop Navigation */}

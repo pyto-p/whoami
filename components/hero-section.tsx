@@ -21,7 +21,7 @@ export function HeroSection() {
             <div className="terminal-dot bg-tokyo-red"></div>
             <div className="terminal-dot bg-tokyo-yellow"></div>
             <div className="terminal-dot bg-tokyo-green"></div>
-            <span className="ml-4 text-tokyo-fgDark font-mono text-sm">sebastian@portfolio:~$ neofetch</span>
+            <span className="ml-4 text-tokyo-fgDark font-mono text-sm">pyto-p@portfolio:~$ neofetch</span>
           </div>
 
           <div className="p-8 bg-tokyo-bg">
@@ -45,30 +45,34 @@ export function HeroSection() {
                 </div>
 
                 {/* Neofetch Info */}
-                <div className="space-y-2 text-sm">
+                <div className="space-y-2 text-m">
                   <div className="flex flex-wrap">
                     <span className="text-tokyo-cyan font-bold min-w-[80px]">Name:</span>
-                    <span className="text-tokyo-fg">Sebastian Temporal</span>
+                    <span className="text-tokyo-fg">Sebastian Audrey Temporal</span>
                   </div>
                   <div className="flex flex-wrap">
                     <span className="text-tokyo-cyan font-bold min-w-[80px]">Role:</span>
-                    <span className="text-tokyo-fg">Fullstack Developer</span>
+                    <span className="text-tokyo-fg">Fullstack Developer Intern @JLabs</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">OS:</span>
-                    <span className="text-tokyo-fg">Web Development</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[80px]">Path:</span>
+                    <span className="text-tokyo-fg">Full Stack Development</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">Shell:</span>
-                    <span className="text-tokyo-fg">JavaScript/TypeScript</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[80px]">PL:</span>
+                    <span className="text-tokyo-fg">JavaScript | TypeScript | Python | Java | PHP | C++</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">DE:</span>
-                    <span className="text-tokyo-fg">React/Next.js</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[80px]">FE:</span>
+                    <span className="text-tokyo-fg">React | Next.js</span>
                   </div>
                   <div className="flex flex-wrap">
-                    <span className="text-tokyo-cyan font-bold min-w-[80px]">WM:</span>
-                    <span className="text-tokyo-fg">Node.js/Express</span>
+                    <span className="text-tokyo-cyan font-bold min-w-[80px]">BE:</span>
+                    <span className="text-tokyo-fg">Node.js | Express | NestJS | Laravel</span>
+                  </div>
+                  <div className="flex flex-wrap">
+                    <span className="text-tokyo-cyan font-bold min-w-[80px]">DB:</span>
+                    <span className="text-tokyo-fg">MongoDB | PostgreSQL | MySQL | Firebase</span>
                   </div>
                   <div className="flex flex-wrap">
                     <span className="text-tokyo-cyan font-bold min-w-[80px]">Theme:</span>
@@ -103,12 +107,12 @@ export function HeroSection() {
               </div>
 
               <div className="mt-6 text-tokyo-comment">
-                <span className="text-tokyo-green">sebastian@portfolio</span>
+                <span className="text-tokyo-green">pyto-p@portfolio</span>
                 <span className="text-tokyo-fg">:</span>
                 <span className="text-tokyo-blue">~</span>
                 <span className="text-tokyo-fg">$ </span>
                 <span className="text-tokyo-yellow">echo</span>
-                <span className="text-tokyo-fg"> "Put your thoughts on programming!"</span>
+                <span className="text-tokyo-fg"> "(P)ut (Y)our (T)houghts (O)n (P)rogramming!"</span>
               </div>
             </motion.div>
           </div>
@@ -132,6 +136,7 @@ export function HeroSection() {
             variant="outline"
             size="lg"
             className="border-tokyo-purple text-tokyo-purple hover:bg-tokyo-purple hover:text-white font-mono"
+            onClick={() => window.open('/TEMPORAL-SEBASTIAN_RESUME_May-2025.pdf', '_blank')}
           >
             <Download className="w-4 h-4 mr-2" />
             View My C.V
