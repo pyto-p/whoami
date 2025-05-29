@@ -74,12 +74,12 @@ export function ExperienceSection() {
                   <div className="text-tokyo-blue mb-2">{"{"}</div>
                   <div className="ml-4 space-y-1">
                     <div>
-                      <span className="text-tokyo-cyan">"position"</span>:
-                      <span className="text-tokyo-green"> "{exp.title}"</span>,
+                      <span className="text-tokyo-cyan">&quot;position&quot;</span>:
+                      <span className="text-tokyo-green"> &quot;{exp.title}&quot;</span>,
                     </div>
                     <div>
-                      <span className="text-tokyo-cyan">"company"</span>:
-                      <span className="text-tokyo-green"> "{exp.company}"</span>,
+                      <span className="text-tokyo-cyan">&quot;company&quot;</span>:
+                      <span className="text-tokyo-green"> &quot;{exp.company}&quot;</span>,
                     </div>
                     <div className="flex items-center gap-4 text-sm">
                       <div className="flex items-center gap-1">
@@ -92,8 +92,8 @@ export function ExperienceSection() {
                       </div>
                     </div>
                     <div>
-                      <span className="text-tokyo-cyan">"description"</span>:
-                      <span className="text-tokyo-green"> "{exp.description}"</span>
+                      <span className="text-tokyo-cyan">&quot;description&quot;</span>:
+                      <span className="text-tokyo-green"> &quot;{exp.description}&quot;</span>
                     </div>
                   </div>
                   <div className="text-tokyo-blue">{"}"}</div>

@@ -65,7 +65,7 @@ export function ContactSection() {
             <span className="text-tokyo-cyan">Get In Touch</span>
           </h2>
           <p className="text-light-fgSecondary dark:text-tokyo-fgDark max-w-2xl mx-auto">
-            Have a project in mind or want to collaborate? I'd love to hear from you!
+            Have a project in mind or want to collaborate? I&apos;d love to hear from you!
           </p>
         </motion.div>
 
@@ -185,7 +185,7 @@ export function ContactSection() {
                   <div className="text-tokyo-green mb-2">● Available for new opportunities</div>
                   <div className="text-tokyo-fg">
                     <p className="mb-2">
-                      I'm currently open to freelance projects and full-time opportunities. Let's build something
+                      I&apos;m currently open to freelance projects and full-time opportunities. Let&apos;s build something
                       amazing together!
                     </p>
                     <div className="text-tokyo-blue">{">"} Response time: Usually within 24 hours</div>

@@ -112,7 +112,7 @@ export function HeroSection() {
                 <span className="text-tokyo-blue">~</span>
                 <span className="text-tokyo-fg">$ </span>
                 <span className="text-tokyo-yellow">echo</span>
-                <span className="text-tokyo-fg"> "(P)ut (Y)our (T)houghts (O)n (P)rogramming!"</span>
+                <span className="text-tokyo-fg"> &quot;(P)ut (Y)our (T)houghts (O)n (P)rogramming!&quot;</span>
               </div>
             </motion.div>
           </div>

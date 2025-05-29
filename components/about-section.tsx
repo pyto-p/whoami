@@ -47,13 +47,13 @@ export function AboutSection() {
                   <div className="text-tokyo-comment mb-4"># About Sebastian</div>
                   <div className="text-tokyo-fg leading-relaxed">
                     <p className="mb-4">
-                      Hello! I'm Sebastian, a passionate Fullstack Developer with a love for creating innovative web
+                      Hello! I&apos;m Sebastian, a passionate Fullstack Developer with a love for creating innovative web
                       applications. My journey in programming started with curiosity and has evolved into a career
                       focused on building scalable, user-friendly solutions.
                     </p>
                     <p className="mb-4">
                       I specialize in modern web technologies and enjoy working on both frontend and backend
-                      development. When I'm not coding, you can find me playing video games, reading self-help books, or watching NBA.
+                      development. When I&apos;m not coding, you can find me playing video games, reading self-help books, or watching NBA.
                     </p>
                     <p className="text-tokyo-blue">{">"} Always learning, always building, always improving.</p>
                   </div>
