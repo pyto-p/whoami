@@ -84,7 +84,7 @@ export function HeroSection() {
                   </div>
                   <div className="flex flex-wrap">
                     <span className="text-tokyo-cyan font-bold min-w-[80px]">Memory:</span>
-                    <span className="text-tokyo-fg">Always learning</span>
+                    <span className="text-tokyo-fg">Always learning!!!</span>
                   </div>
 
                   {/* Color palette */}

@@ -53,8 +53,7 @@ export function AboutSection() {
                     </p>
                     <p className="mb-4">
                       I specialize in modern web technologies and enjoy working on both frontend and backend
-                      development. When I'm not coding, you can find me exploring new technologies, contributing to
-                      open-source projects, or sharing knowledge with the developer community.
+                      development. When I'm not coding, you can find me playing video games, reading self-help books, or watching NBA.
                     </p>
                     <p className="text-tokyo-blue">{">"} Always learning, always building, always improving.</p>
                   </div>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#1a1b26"/>
+  
+  <!-- Tetris Title -->
+  <text x="400" y="80" font-family="monospace" font-size="48" text-anchor="middle" fill="#7aa2f7">TETRIS</text>
+  
+  <!-- Tetris Blocks -->
+  <!-- I-Block (Cyan) -->
+  <rect x="250" y="120" width="40" height="40" fill="#7dcfff" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="290" y="120" width="40" height="40" fill="#7dcfff" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="330" y="120" width="40" height="40" fill="#7dcfff" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="370" y="120" width="40" height="40" fill="#7dcfff" stroke="#1a1b26" stroke-width="2"/>
+  
+  <!-- T-Block (Purple) -->
+  <rect x="450" y="120" width="40" height="40" fill="#bb9af7" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="490" y="120" width="40" height="40" fill="#bb9af7" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="530" y="120" width="40" height="40" fill="#bb9af7" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="490" y="160" width="40" height="40" fill="#bb9af7" stroke="#1a1b26" stroke-width="2"/>
+  
+  <!-- O-Block (Yellow) -->
+  <rect x="250" y="180" width="40" height="40" fill="#e0af68" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="290" y="180" width="40" height="40" fill="#e0af68" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="250" y="220" width="40" height="40" fill="#e0af68" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="290" y="220" width="40" height="40" fill="#e0af68" stroke="#1a1b26" stroke-width="2"/>
+  
+  <!-- Z-Block (Red) -->
+  <rect x="370" y="180" width="40" height="40" fill="#f7768e" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="410" y="180" width="40" height="40" fill="#f7768e" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="410" y="220" width="40" height="40" fill="#f7768e" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="450" y="220" width="40" height="40" fill="#f7768e" stroke="#1a1b26" stroke-width="2"/>
+  
+  <!-- L-Block (Orange) -->
+  <rect x="530" y="180" width="40" height="40" fill="#ff9e64" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="530" y="220" width="40" height="40" fill="#ff9e64" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="530" y="260" width="40" height="40" fill="#ff9e64" stroke="#1a1b26" stroke-width="2"/>
+  <rect x="570" y="260" width="40" height="40" fill="#ff9e64" stroke="#1a1b26" stroke-width="2"/>
+  
+  <!-- Game Info -->
+  <text x="400" y="340" font-family="monospace" font-size="24" text-anchor="middle" fill="#a9b1d6">Classic Tetris Game</text>
+  <text x="400" y="370" font-family="monospace" font-size="18" text-anchor="middle" fill="#565f89">HTML • CSS • JavaScript</text>
+</svg>

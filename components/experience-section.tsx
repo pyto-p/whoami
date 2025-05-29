@@ -9,7 +9,7 @@ const experiences = [
     company: "JLabs",
     period: "December 2024 - June 2025",
     location: "Remote",
-    description: "Currently working on full-stack web applications using modern technologies.",
+    description: "Built, maintained and debugged full-stack apps using Laravel, React, and React Native, focusing on UI/UX improvements, error handling, validation logic, and API efficiency.",
     status: "current",
   },
   {
@@ -17,15 +17,15 @@ const experiences = [
     company: "Spiralytics",
     period: "August - September 2024",
     location: "Remote",
-    description: "Developed and maintained web applications, collaborated with cross-functional teams.",
+    description: "Automated task workflows by integrating Jira with internal tools, boosting productivity and enhancing client access to performance data.",
     status: "completed",
   },
   {
     title: "Fullstack Development Graduate",
     company: "Uplift Code Camp",
-    period: "2024",
-    location: "Bootcamp",
-    description: "Intensive full-stack development program covering modern web technologies.",
+    period: "October 2023 - March 2024",
+    location: "Online Bootcamp",
+    description: "Completed a hands-on full-stack (MERN) program covering modern web development practices and technologies. Developed 6 mini projects for hands-on application of knowledge.",
     status: "completed",
   },
 ]

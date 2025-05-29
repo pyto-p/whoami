@@ -33,25 +33,25 @@ const projects = [
   },
   {
     title: "NavCart",
-    description: "Discover and track movies with detailed information and personal watchlists.",
-    tech: ["React", "TMDb API", "Firebase", "Material-UI"],
-    image: "/placeholder.svg?height=200&width=300",
+    description: "It is a mobile app that leverage shortest-path route to enhance your grocery shopping experience. Its main feature is to help you get the most efficient path in order to shop grocery items in your list.",
+    tech: ["Android", "Java", "MySQL"],
+    image: "/navcart-2.png",
     demo: "#",
-    github: "#",
+    github: "https://github.com/pyto-p/NavCart",
   },
   {
     title: "Tetris",
-    description: "Intelligent chatbot powered by AI with natural language processing capabilities.",
-    tech: ["Next.js", "Gemini API", "TypeScript", "Tailwind"],
-    image: "/placeholder.svg?height=200&width=300",
+    description: "A simple Tetris clone made from scratch.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    image: "/tetris-placeholder.svg",
     demo: "#",
-    github: "#",
+    github: "https://github.com/pyto-p/tetris?tab=readme-ov-file",
   },
   {
     title: "Where2Eat",
-    description: "Personal portfolio website with modern design and smooth animations.",
-    tech: ["Next.js", "Framer Motion", "Tailwind", "TypeScript"],
-    image: "/placeholder.svg?height=200&width=300",
+    description: "A Tinder-style app for discovering nearby restaurants, where users can swipe through options and sync preferences with friends or partners in real time.",
+    tech: ["Next.js", "NestJS", "TailwindCSS", "TypeScript", "Supabase"],
+    image: "/coming-soon.svg",
     demo: "#",
     github: "#",
   },
@@ -96,7 +96,7 @@ export function ProjectsSection() {
                 </span>
               </div>
 
-              <div className="bg-tokyo-bg">
+              <div className="h-full bg-tokyo-bg">
                 <div className="relative overflow-hidden">
                   <Image
                     src={project.image || "/placeholder.svg"}
@@ -108,10 +108,10 @@ export function ProjectsSection() {
                   />
                   <div className="absolute inset-0 bg-tokyo-bg/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
                     <Button size="sm" variant="secondary" asChild>
-                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                      {/* <a href={project.demo} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Demo
-                      </a>
+                      </a> */}
                     </Button>
                     <Button size="sm" variant="outline" asChild>
                       <a href={project.github} target="_blank" rel="noopener noreferrer">
