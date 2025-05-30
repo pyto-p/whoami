@@ -35,7 +35,7 @@ const projects = [
     title: "NavCart",
     description: "It is a mobile app that leverage shortest-path route to enhance your grocery shopping experience. Its main feature is to help you get the most efficient path in order to shop grocery items in your list.",
     tech: ["Android", "Java", "MySQL"],
-    image: "/navcart-2.png",
+    image: "/navcart-1.png",
     demo: "#",
     github: "https://github.com/pyto-p/NavCart",
   },
