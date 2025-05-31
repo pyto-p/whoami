@@ -136,10 +136,10 @@ export function HeroSection() {
             variant="outline"
             size="lg"
             className="border-tokyo-purple text-tokyo-purple hover:bg-tokyo-purple hover:text-white font-mono"
-            onClick={() => window.open('/TEMPORAL-SEBASTIAN_RESUME_May-2025.pdf', '_blank')}
+            onClick={() => window.open('/TEMPORAL-SEBASTIAN_RESUME.pdf', '_blank')}
           >
             <Download className="w-4 h-4 mr-2" />
-            View My C.V
+            Here&apos;s My C.V
           </Button>
         </motion.div>
 
